@@ -1,3 +1,4 @@
+#!/bin/bash
 export CONDA_CACHED=1
 if [[ "$TRAVIS_OS_NAME" == "linux" ]]; 
 then 
