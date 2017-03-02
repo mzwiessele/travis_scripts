@@ -11,7 +11,7 @@ fi;
 
 if [[ $PYTHON_VERSION == "2.7" ]]; 
 then 
-  export MINICONDA=Miniconda; 
+  export MINICONDA=Miniconda2; 
 elif [[ $PYTHON_VERSION == 3* ]]; 
 then 
   export MINICONDA=Miniconda3; else echo "Could not find python version";
