@@ -35,7 +35,7 @@ if [ ! -f $MINCONDA_CACHE_FILE ];
 then 
   export CONDA_CACHED=0; 
   wget http://repo.continuum.io/miniconda/$MINICONDA-latest-$OS-x86_64.sh -O $MINCONDA_CACHE_FILE; 
-  #bash $MINCONDA_CACHE_FILE -b -p $MINICONDA_INSTALL;
+  bash $MINCONDA_CACHE_FILE -b -p $MINICONDA_INSTALL;
 fi;
 
 export PATH="$MINICONDA_INSTALL/bin:$PATH";
